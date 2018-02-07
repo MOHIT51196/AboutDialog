@@ -32,16 +32,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDialog() {
         AboutDialogBuilder builder = new AboutDialog.Builder(MainActivity.this)
-                .setTitle("About Me")
-                .setName("Mohit Malhotra")
-                .setDescription("Freelance Developer and Designer")
+                .setTitle("About Developer")
+                .setName(getString(R.string.dev_name))
+                .setDescription(getString(R.string.dev_desc))
+                .setDetailedNote(getString(R.string.dev_bio))
+                .setThought(getString(R.string.dev_say))
 
-                .hideThoughtLayout()
+                .setProfileImage(R.drawable.dev_dp)
 
                 .setLinkedinURL(getString(R.string.dev_linkedin))
                 .setFacebookURL(getString(R.string.dev_fb))
-                .setInstagramURL("https://www.instagram.com/mohitmalhotra.punjabi/")
-                .setTwitterURL("https://www.twitter.com/")
+                .setInstagramURL(getString(R.string.dev_insta))
+                .setGithubURL(getString(R.string.dev_github))
+
                 .setMailAddress(getString(R.string.dev_email))
 
                 .setCopyrightYear("2018");

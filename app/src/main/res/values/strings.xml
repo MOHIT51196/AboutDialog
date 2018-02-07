@@ -5,7 +5,13 @@
     <string name="dev_github">https://github.com/mohit51196</string>
     <string name="dev_linkedin">https://www.linkedin.com/in/dev-mohit-malhotra</string>
     <string name="dev_googleplus">https://plus.google.com/101129834640719701944</string>
+    <string name="dev_insta">https://www.instagram.com/mohitmalhotra.punjabi/</string>
     <string name="dev_fb">https://www.facebook.com/mohitmalhotra.punjabi</string>
     <string name="dev_fb_prof_id">100003389271215</string>
+
+    <string name="dev_name">Mohit Malhotra</string>
+    <string name="dev_desc">Freelancer | Android / Web Developer</string>
+    <string name="dev_bio">A Technology enthusiast and Freelance developer, currently indulged in Android application and Web development along with modern UI designing.   Articulator, loves to be on the stage. Java (J2SE and J2EE) programmer , has worked on CMS like Wordpress. Develop and desgin Java based software solutions and well aware of JavaScript technologies like NodeJS</string>
+    <string name="dev_say">This app is the smallest possible glimpse of my work , possibilities are endless. Hire me and shape your ideas into reality.</string>
 
 </resources>

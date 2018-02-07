@@ -1,7 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'  
-
-group='com.github.mohit51196'
 
 android {
     compileSdkVersion 26
@@ -36,3 +33,6 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.2.0'
     testCompile 'junit:junit:4.12'
 }
+
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.mohit51196'
