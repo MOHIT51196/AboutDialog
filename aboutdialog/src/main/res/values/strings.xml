@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AboutDialog</string>
+    <string name="dev_email">mohitmalhotra5@yahoo.com</string>
+    <string name="dev_github">https://github.com/mohit51196</string>
+    <string name="dev_linkedin">https://www.linkedin.com/in/dev-mohit-malhotra</string>
+    <string name="dev_googleplus">https://plus.google.com/101129834640719701944</string>
+    <string name="dev_fb">https://www.facebook.com/mohitmalhotra.punjabi</string>
+    <string name="dev_fb_prof_id">100003389271215</string>
+
+    <string name="dev_name">Developer/Company Name</string>
+    <string name="dev_desc">Small description</string>
+    <string name="dev_bio">Detail note about the developer / company</string>
+    <string name="according_to_the_developer">According to the us :</string>
+    <string name="dev_say">Thoughts of developer/company about the project.</string>
+    <string name="connect_with">Connect with :</string>
+    <string name="copyrights">Copyrights ©</string>
+    <string name="reach_me_with">Reach me with</string>
+    <string name="about_developer">About Developer</string>
+    <string name="image">image</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+
+    <string name="dev_email">mohitmalhotra5@yahoo.com</string>
+    <string name="dev_github">https://github.com/mohit51196</string>
+    <string name="dev_linkedin">https://www.linkedin.com/in/dev-mohit-malhotra</string>
+    <string name="dev_googleplus">https://plus.google.com/101129834640719701944</string>
+    <string name="dev_fb">https://www.facebook.com/mohitmalhotra.punjabi</string>
+    <string name="dev_fb_prof_id">100003389271215</string>
+
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="26dp"
+        android:textAlignment="textStart"
+        android:text="@string/dev_name"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:text="@string/dev_desc"
+        android:textSize="12dp"
+        android:layout_marginBottom="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailedNote"
+        android:text="@string/dev_bio"
+        android:textColor="#3b3b3b"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutThought"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/according_to_the_developer"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thought"
+            android:padding="10dp"
+            android:layout_margin="6dp"
+            android:background="#3a3d3c3c"
+            android:text="@string/dev_say"
+            android:fontFamily="casual"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutConnectWith"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/connect_with"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnFacebook"
+                app:srcCompat="@drawable/ic_facebook_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#3b5998"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnGithub"
+                app:srcCompat="@drawable/ic_github_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#24292E"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+            
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnGooglePlus"
+                app:srcCompat="@drawable/ic_google_plus_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#dd4b39"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnInstagram"
+                app:srcCompat="@drawable/ic_instagram_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#e4405f"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+            
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnLinkedin"
+                app:srcCompat="@drawable/ic_linkedin_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#0077B5"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnTwitter"
+                app:srcCompat="@drawable/ic_twitter_logo"
+                android:scaleType="centerInside"
+                app:backgroundTint="#55acee"
+                android:tint="@android:color/white"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:visibility="gone"
+                />
+           
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyrights"
+        android:text="@string/copyrights"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textColor="#3b3b3b"/>
+
+</LinearLayout>
