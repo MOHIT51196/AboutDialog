@@ -10,11 +10,22 @@ This is an android library that holds 'About Me' template as a customizable aler
 
 This library will provide you the neat implementation of *'About Developer'* template for the Android apps. The template holds relevant sections to describe the detailed information about the developer/company that developed the app along with necessary social media links.
 
-<img src="https://media.giphy.com/media/xUNda4rYrs0Gfnya3u/giphy.gif" width="200" height="360" />
+<div style="display: flex;flex-direction: column;">
+<div style="flex = 1">
+	<img src="https://media.giphy.com/media/xUNda4rYrs0Gfnya3u/giphy.gif" width="200" height="360" />
+</div>
 
-<img src="/screenshots/ss1.png" width="200" height="360" />
+<div style="flex = 1">
+	<img src="/screenshots/ss1.png" width="200" height="360" />
+</div>
 
-<img src="/screenshots/ss2.png" width="200" height="360" />
+<div style="flex = 1">
+	<img src="/screenshots/ss2.png" width="200" height="360" />
+</div>
+
+</div>
+
+
 
 ## Prerequisites
 
