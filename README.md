@@ -102,7 +102,37 @@ Or add maven dependency to your java project
         builder.setThought("Your thoughts")
         ```
 
-* Set social media links as Floating buttons with your profle url:
+* Set the display picture of developer/company profile :
+
+	* Drawable can be passed as argument directly
+		```
+		builder.setProfileImage(R.drawable.dp) 
+		```
+	
+	* Uri can be passed as argument incase of web url
+		```
+		builder.setProfileImage(uri) 
+		```
+		
+	*default icon will be displayed incase profile image is not set*
+	
+	
+* Set the cover image for developer/company profile :
+
+	* Drawable can be passed as argument directly
+		```
+		builder.setCoverImage(R.drawable.dp) 
+		```
+	
+	* Uri can be passed as argument incase of web url
+		```
+		builder.setCoverImage(uri) 
+		```
+		
+	*default icon will be displayed incase profile image is not set*
+	
+		
+* Set social media links as Floating buttons with your profle url :
 
     * Set Facebook profile link :
         ```
@@ -192,6 +222,9 @@ Or add maven dependency to your java project
 	    // set information about developer
 	    .setName("Mohit Malhotra")
 	    .setDescription("Freelance Developer and Designer")
+	    
+	    // set the display picture
+	    .setProfileImage(R.drawable.dev_dp)
 
 	    // hide the detailed description section
 	    .hideThoughtLayout()
