@@ -251,7 +251,7 @@ Add dependencies to the existing/new project and follow the *usage* section for 
 
 ## Authors
 
-* **Mohit Malhotra** - *Initial work* - [PurpleBooth](https://github.com/MOHIT51196)
+* **Mohit Malhotra** - *Initial work* - [Github](https://github.com/MOHIT51196)
 
 ## License
 
