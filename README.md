@@ -27,19 +27,18 @@ This library will provide you the neat implementation of *'About Developer'* tem
             maven { url "https://jitpack.io" }
         }
     }
-
     ~~~
 
 Or add maven dependency to your java project
 
-    ~~~
+   
     <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-    ~~~
+    
 
 
 2. Add the dependency to your app build.gradle
@@ -52,13 +51,13 @@ Or add maven dependency to your java project
 
 Or add maven dependency to your java project
     
-    ~~~
+    
     <dependency>
 	    <groupId>com.github.MOHIT51196</groupId>
 	    <artifactId>AboutDialog</artifactId>
 	    <version>1.0</version>
 	</dependency>
-    ~~~
+    
 
 
 ## Usage
@@ -214,7 +213,7 @@ Or add maven dependency to your java project
 
 ### Example
 
-	~~~
+	
 	AboutDialogBuilder builder = new AboutDialog.Builder(MainActivity.this)
 	    // set title for the About view
 	    .setTitle("About Me")
@@ -243,7 +242,7 @@ Or add maven dependency to your java project
 	// to show the About dialog
 	dialog.show();
 
-	~~~
+
 
 ## Deployment
 
